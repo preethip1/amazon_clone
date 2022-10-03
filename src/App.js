@@ -1,11 +1,12 @@
 import './App.css';
 import Button from 'react-bootstrap/Button';
+import AmazonNavbar from "./components/navbar"
 
 
 function App() {
   return (
     <div className="App">
-      <Button variant="primary">Primary</Button>{' '}
+      <AmazonNavbar/>
 
     </div>
   );
